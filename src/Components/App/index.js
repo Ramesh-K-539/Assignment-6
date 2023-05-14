@@ -40,7 +40,7 @@ class AppContainer extends Component {
         result: 'YOU WON',
       }))
     } else if (
-      (id === 'SCISSORS' && opponentId === 'ROCk') ||
+      (id === 'SCISSORS' && opponentId === 'ROCK') ||
       (id === 'PAPER' && opponentId === 'SCISSORS') ||
       (id === 'ROCK' && opponentId === 'PAPER')
     ) {
